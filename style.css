@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    margin-right: 140px;
+    margin-right: 50px;
 }
 
 .second-container {
@@ -78,4 +78,42 @@ h2 {
 
 .text ul i {
     cursor: pointer;
+}
+
+
+
+/* ************************ Media queries ************************** */
+
+/* Media query for screens smaller than 500px (portrait mode) */
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .second-container {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .btn {
+        width: 40px;
+    }
+
+    .text ul {
+        width: 90%;
+    }
 }
